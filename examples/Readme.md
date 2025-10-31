@@ -20,12 +20,12 @@ Si escribimos por ejemplo 19 caracteres como contraseña, se consigue el acceso 
 #./auth.bin user AAAAAAAAAAAAAAAAaaaa  
 Si escribimos 20 caracteres como contraseña, se provoca un desbordamiento de la memoria
 
-Si utilizas gdb o similar pon el punto de ruptura en la linea 11  
+Si utilizas gdb o similar pon el punto de ruptura en la linea 11 para obtener más información
 
 #### Explotacion variable usuario
 
 De manera análoga a la variable password pero esta vez con 103 y 104 caracteres
 
-Si utilizas gdb o similar pon el punto de ruptura en la linea 25  
+Si utilizas gdb o similar pon el punto de ruptura en la linea 25 para obtener más información
 
 
