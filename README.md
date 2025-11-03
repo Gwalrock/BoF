@@ -27,6 +27,15 @@ Sobrescribir el EIP para redirigir la ejecución del programa.​
 Ejecutar código arbitrario (por ejemplo, abrir una shell o escalar privilegios).​  
 Evitar protecciones si el binario no está compilado con medidas como ASLR, DEP o stack canaries.​
 
+## Endianness ¿Porqué es importante?
+Supongamos que queremos almacenar el valor hexadecimal 0xBFFFEE58 (4 bytes) en memoria.  
+📌 En Little Endian:  
+Se guarda del byte menos significativo al más significativo.  
+Orden de bytes en memoria (de dirección baja a alta): 58 EE FF BF  
+📌 En Big Endian:  
+Se guarda del byte más significativo al menos significativo.  
+Orden de bytes en memoria (de dirección alta a baja):BF FF EE 58  
+
 ## Medidas de protección del SO
 
 
